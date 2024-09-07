@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #202020;
+    overflow: hidden; /* Remove a rolagem do body */
+}
+
+#logo h1 {
+    font-weight: bolder;
+    font-size: 37pt;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    width: 90%;
+    max-width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main div#access button {
+    width: 100%;
+}
